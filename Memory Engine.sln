@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Memory Engine", "Memory Engine\Memory Engine.vcproj", "{AC3F6763-152F-4B19-B864-ECFD6DD7C806}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LPMS", "iScan\iScan.vcproj", "{7CB0FDC6-920B-4436-B0FA-47EC142742D2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Merge", "Merge\Merge.vcproj", "{0686FC96-AFDC-41D5-9F41-D669D803FFE1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LPMS Tutorial", "LPMS Tutorial\LPMS Tutorial.vcproj", "{2EFB1A46-10E0-4D67-9EFD-D42E7A88E611}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC3F6763-152F-4B19-B864-ECFD6DD7C806}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AC3F6763-152F-4B19-B864-ECFD6DD7C806}.Debug|Win32.Build.0 = Debug|Win32
+		{AC3F6763-152F-4B19-B864-ECFD6DD7C806}.Release|Win32.ActiveCfg = Release|Win32
+		{AC3F6763-152F-4B19-B864-ECFD6DD7C806}.Release|Win32.Build.0 = Release|Win32
+		{7CB0FDC6-920B-4436-B0FA-47EC142742D2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7CB0FDC6-920B-4436-B0FA-47EC142742D2}.Debug|Win32.Build.0 = Debug|Win32
+		{7CB0FDC6-920B-4436-B0FA-47EC142742D2}.Release|Win32.ActiveCfg = Release|Win32
+		{7CB0FDC6-920B-4436-B0FA-47EC142742D2}.Release|Win32.Build.0 = Release|Win32
+		{0686FC96-AFDC-41D5-9F41-D669D803FFE1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0686FC96-AFDC-41D5-9F41-D669D803FFE1}.Debug|Win32.Build.0 = Debug|Win32
+		{0686FC96-AFDC-41D5-9F41-D669D803FFE1}.Release|Win32.ActiveCfg = Release|Win32
+		{0686FC96-AFDC-41D5-9F41-D669D803FFE1}.Release|Win32.Build.0 = Release|Win32
+		{2EFB1A46-10E0-4D67-9EFD-D42E7A88E611}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2EFB1A46-10E0-4D67-9EFD-D42E7A88E611}.Debug|Win32.Build.0 = Debug|Win32
+		{2EFB1A46-10E0-4D67-9EFD-D42E7A88E611}.Release|Win32.ActiveCfg = Release|Win32
+		{2EFB1A46-10E0-4D67-9EFD-D42E7A88E611}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
