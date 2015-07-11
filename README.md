@@ -1,4 +1,4 @@
-LPMS (Low Profile Memory Scanner)
+Real-time Memory Scanner (sold and published as Low Profile Memory Scanner or LPMS)
 
   I developped the Memory Engine with C++ while I was still a junior in high school. You may find instances in the source-code 
 that could be improved on. I didn't have the time to refurbish the source-code after its release since I didn't get a chance.
