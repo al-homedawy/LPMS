@@ -1,7 +1,27 @@
-Real-time Memory Scanner (sold and published as Low Profile Memory Scanner or LPMS)
+# Low Profile Memory Scanner (LPMS)
 
-I developped the memory scanner with C++ while I was still a junior in high school. You may find instances in the source-code 
-that could be improved on. I didn't have the time to refurbish the source-code after its release since I didn't get a chance.
+LPMS is a light-weight memory scanner for the Windows operating system. It gives users the ability to scan, disassemble and debug the memory space of another application. The motivation behind LPMS is related to reverse-engineering.
 
-Watch out for the license-check at the main entry-point of every sub-project within the project. The memory scanner itself is 
-a DLL so in order to launch it you need to inject it into your target application. I have provided a kernel-mode DLL injector in another respository. The reason why I invested most of my time with a kernel-mode injector rather than a simpler user-mode injector is primarily due to the fact that using a driver is mostly undetectable by anti-hacking systems.
+LPMS was once on the market for sale. It was sold to hundreds of customers world-wide. The product was maintained for over a year before being discontinued. I had discontinued it so that I could focus on my University studies. 
+
+## Usage
+
+The memory scanner is a dynamic link library (DLL). This is because DLLs in Windows are more adept to evasive reverse-engineering than a standalone application. In order to use LPMS, you must inject the DLL into the target application. Injection in this context means loading the DLL into the memory space of the target application. I have provided two DLL injecters in my GitHub repository. The first uses the Windows API to perform injection while the latter utilizes a kernel driver for a more evasive kernel-mode injection.
+
+Upon successful injection, the GUI of the DLL will appear and you will be able to begin reverse engineering a target application. 
+
+### Alpha Testing
+
+https://www.youtube.com/watch?v=ZxoxMw8RSeI&t=56s
+
+### Final Product
+
+https://www.youtube.com/watch?v=OiIWFUwoeLI
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at [hussain-alhomedawy](https://github.com/hussain-alhomedawy/NETPoint).
+
+## License
+
+The repository is available as open source under the terms of the [MIT](https://opensource.org/licenses/MIT) License
