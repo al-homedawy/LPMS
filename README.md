@@ -10,14 +10,6 @@ The memory scanner is a dynamic link library (DLL). This is because DLLs in Wind
 
 To use LPMS, you must inject this library into the target application's memory space. I have provided several DLL injecters in my GitHub repository. 
 
-### Alpha Testing
-
-https://www.youtube.com/watch?v=ZxoxMw8RSeI&t=56s
-
-### Final Product
-
-https://www.youtube.com/watch?v=OiIWFUwoeLI
-
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at [hussain-alhomedawy](https://github.com/hussain-alhomedawy/NETPoint).
