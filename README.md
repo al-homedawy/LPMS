@@ -1,14 +1,14 @@
 # Low Profile Memory Scanner (LPMS)
 
-LPMS is a light-weight memory scanner for the Windows operating system. It gives users the ability to scan, disassemble and debug the memory space of another application. The motivation behind LPMS is related to reverse-engineering.
+LPMS is a light-weight memory scanner for the Windows operating system. It gives users the ability to scan, disassemble and debug the memory space of another application. 
 
-LPMS was once on the market for sale. It was sold to hundreds of customers world-wide. The product was maintained for over a year before being discontinued. I had discontinued it so that I could focus on my University studies. 
+LPMS was sold online to hundreds of customers world-wide. This product was maintained throughout my high-school years until I graduated. I had discontinued it so that I could focus on my university studies. 
 
 ## Usage
 
-The memory scanner is a dynamic link library (DLL). This is because DLLs in Windows are more adept to evasive reverse-engineering than a standalone application. In order to use LPMS, you must inject the DLL into the target application. Injection in this context means loading the DLL into the memory space of the target application. I have provided two DLL injecters in my GitHub repository. The first uses the Windows API to perform injection while the latter utilizes a kernel driver for a more evasive kernel-mode injection.
+The memory scanner is a dynamic link library (DLL). This is because DLLs in Windows are adept to evasive reverse-engineering processes than a standalone application. 
 
-Upon successful injection, the GUI of the DLL will appear and you will be able to begin reverse engineering a target application. 
+To use LPMS, you must inject this library into the target application's memory space. I have provided several DLL injecters in my GitHub repository. 
 
 ### Alpha Testing
 
